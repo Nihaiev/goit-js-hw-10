@@ -1,4 +1,3 @@
-export { fetchCountries };
 const URL = 'https://restcountries.com/v3.1/name';
 
 const fetchCountries = name => {
@@ -11,3 +10,5 @@ const fetchCountries = name => {
     return response.json();
   });
 };
+
+export { fetchCountries };
